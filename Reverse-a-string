@@ -1,0 +1,5 @@
+s = input("Enter a string to reverse it :- ")
+result = ""
+for char in s:
+    result = char + result
+print(result)
