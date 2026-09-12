@@ -1,0 +1,9 @@
+s = input("input string to check if palidrome")
+reverse = ""
+ak = ""
+for ak in s:
+      reverse = ak + reverse
+if s == reverse:
+      print("palidrome")
+else:
+      print("not palidrome")
