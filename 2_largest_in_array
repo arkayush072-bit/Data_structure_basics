@@ -1,0 +1,13 @@
+nums = [10,20,93,88,79,99,97]
+
+largest = nums[0]
+second = nums[0]
+
+for num in nums:
+    if num > largest:
+        second = largest
+        largest = num
+    elif num > second and num != largest:
+        second = num
+
+print(second,largest)
